@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct glossaryApp: App {
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GlossaryView()
         }
     }
 }
